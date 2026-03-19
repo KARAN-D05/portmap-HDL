@@ -48,4 +48,3 @@ nim c -d:release -o:portmap portmap.nim
 ## Notes
 - Testbench files may show no ports (expected behavior)
 - Designed for standard Verilog module definitions
-- VHDL and SystemVerilog support planned
