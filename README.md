@@ -37,7 +37,7 @@ portmap file.v --md
 ## 📦 Install
 
 ### 🐧 Linux
-Download the binary from the [latest release](https://github.com/KARAN-D05/portmap-HDL/releases/tag/v1.0.0), then:
+Download `portmap-linux-x64` from the [latest release](https://github.com/KARAN-D05/portmap-HDL/releases/tag/v1.0.0), then:
 ```bash
 chmod +x portmap-linux-x64
 sudo mv portmap-linux-x64 /usr/local/bin/portmap
