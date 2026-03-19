@@ -25,14 +25,14 @@ portmap file.v --md
 ## Install
 
 ### Linux
-Download the binary from the [latest release](../../releases/latest), then:
+Download the binary from the [latest release](https://github.com/KARAN-D05/portmap-HDL/releases/tag/v1.0.0), then:
 ```bash
 chmod +x portmap-linux-x64
 sudo mv portmap-linux-x64 /usr/local/bin/portmap
 ```
 
 ### Windows
-Download `portmap-windows-x64.exe` from the [latest release](../../releases/latest), then open PowerShell and run:
+Download `portmap-windows-x64.exe` from the [latest release](https://github.com/KARAN-D05/portmap-HDL/releases/tag/v1.0.0), then open PowerShell and run:
 ```powershell
 cd "$env:USERPROFILE\Downloads"
 move portmap-windows-x64.exe "$env:USERPROFILE\AppData\Local\Microsoft\WindowsApps\portmap.exe"
