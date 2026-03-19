@@ -61,6 +61,16 @@ nim c -d:release -o:portmap portmap.nim
 - Testbench files may show no ports (expected behavior)
 - Designed for standard Verilog module definitions
 
+## Tests
+
+Download [Tests folder](tests) -> Provide 4 test files
+```
+portmap tests/det.v       # Default version
+portmap tests/det.v --md  # Markdown Version
+
+Compare with images in readme for det.v.
+```
+
 ## ⬇️ Download This Repository
 
 ### 🪟 Windows
