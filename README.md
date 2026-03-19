@@ -13,7 +13,7 @@ Point it at any Verilog file and it instantly prints a clean, aligned table of a
 </p>
 
 <p align="center">
-  <img src="images/port-extraction-markdown.png"  width="500"/>
+  <img src="images/port-extraction-markdown.png"  width="1000"/>
   <br>
   <sub>Port-Extraction (Markdown )</sub>
 </p>
