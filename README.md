@@ -20,7 +20,7 @@ Point it at any Verilog file and it instantly prints a clean, aligned table of a
 
 ## ⚙️ Implementation Stack
 ![Nim](https://img.shields.io/badge/Nim%20%7C%20portmap-FFE953?style=for-the-badge&logoColor=black)
-![Lua](https://img.shields.io/badge/Lua%20%7C%20utils-2C2D72?style=for-the-badge&logoColor=white)
+![Lua](https://img.shields.io/badge/Lua%20%7C%20filetree-2C2D72?style=for-the-badge&logoColor=white)
 
 ## ✨ Features
 - Extracts `input`, `output`, and `inout` ports
