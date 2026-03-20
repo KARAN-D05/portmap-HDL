@@ -1,5 +1,6 @@
-# filetree.lua
+# Utils
 
+`Filetree`
 A repository file tree generator written in Lua. Prints a visual directory tree with file-type icons and a breakdown of key file counts at the bottom.
 
 ```
@@ -88,3 +89,52 @@ lua filetree.lua .
 ## Footer breakdown
 
 Tracks counts for: `.v` `.circ` `.md` `.py` `.c` `.bat` `.sh` `.ps1` - only shows extensions with at least one file.
+
+`portmap` 
+A lightweight CLI tool to extract port definitions from Verilog files.
+
+### Features
+- Extracts `input`, `output`, and `inout` ports
+- Detects bus widths (e.g. `[7:0]`)
+- Clean, aligned CLI table output
+- Markdown export with `--md` flag
+
+### Usage
+#### Pretty table (default)
+```bash
+portmap file.v
+```
+#### Markdown output
+```bash
+portmap file.v --md
+```
+
+### Install (Linux)
+Download the binary from this release, then:
+```bash
+chmod +x portmap-linux-x64
+sudo mv portmap-linux-x64 /usr/local/bin/portmap
+```
+Now you can run:
+```bash
+portmap file.v
+```
+
+### Install (Windows)
+Download `portmap-windows-x64.exe` from this release, then open PowerShell and run:
+```powershell
+move portmap-windows-x64.exe "$env:USERPROFILE\AppData\Local\Microsoft\WindowsApps\portmap.exe"
+```
+Now you can run:
+```powershell
+portmap file.v
+```
+
+### Notes
+- Testbench files may show no ports (expected behavior)
+- Designed for standard Verilog module definitions
+
+### Build from source
+```bash
+nim c -d:release portmap.nim
+```
