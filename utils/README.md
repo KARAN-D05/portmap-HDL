@@ -1,4 +1,6 @@
-# 🧰 Utils
+# 🧰 Utils - KARAN-D05
+- Handy companion command line tools automatically fetched for my projects dowloads through [download_repos.sh](../download_repos.sh) for linux or [download_repos.bat](../download_repos.bat) for windows.
+- Includes a verilog file port extractor and repo filetree visualizer.
 
 ## 🌳 Filetree
 A repository file tree generator written in Lua. Prints a visual directory tree with file-type icons and a breakdown of key file counts at the bottom.
