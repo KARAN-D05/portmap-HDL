@@ -18,6 +18,9 @@ Point it at any Verilog file and it instantly prints a clean, aligned table of a
   <sub>Port-Extraction (Markdown )</sub>
 </p>
 
+## ⚙️ Implementation Stack
+![Nim](https://img.shields.io/badge/Nim-FFE953?style=for-the-badge&logo=nim&logoColor=black)
+
 ## ✨ Features
 - Extracts `input`, `output`, and `inout` ports
 - Detects bus widths (e.g. `[7:0]`)
