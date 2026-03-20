@@ -110,7 +110,7 @@ portmap file.v --md
 ```
 
 ### Install (Linux)
-Download the binary from this release, then:
+Download the binary from [portmap folder](portmap), then:
 ```bash
 chmod +x portmap-linux-x64
 sudo mv portmap-linux-x64 /usr/local/bin/portmap
@@ -121,7 +121,7 @@ portmap file.v
 ```
 
 ### Install (Windows)
-Download `portmap-windows-x64.exe` from this release, then open PowerShell and run:
+Download `portmap-windows-x64.exe` from [portmap folder](portmap), then open PowerShell and run:
 ```powershell
 move portmap-windows-x64.exe "$env:USERPROFILE\AppData\Local\Microsoft\WindowsApps\portmap.exe"
 ```
