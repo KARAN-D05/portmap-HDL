@@ -1,4 +1,4 @@
-:: WINDOWS REPOSITORY DOWNLOADER
+:: Windows Repository Downloader
 
 @echo off
 setlocal enabledelayedexpansion
