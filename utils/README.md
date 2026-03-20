@@ -1,5 +1,5 @@
-# 🧰 Utils - KARAN-D05
-- Handy companion command line tools automatically fetched for my projects dowloads through [download_repos.sh](../download_repos.sh) for linux or [download_repos.bat](../download_repos.bat) for windows.
+# 🧰 Utils
+- Handy companion command line tools automatically fetched along my projects dowloads through [download_repos.sh](../download_repos.sh) for linux or [download_repos.bat](../download_repos.bat) for windows.
 - Includes a verilog file port extractor and repo filetree visualizer.
 
 ## 🌳 Filetree
@@ -139,4 +139,8 @@ portmap file.v
 ### Build from source
 ```bash
 nim c -d:release portmap.nim
+```
+
+```
+https://github.com/KARAN-D05
 ```
