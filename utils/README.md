@@ -141,7 +141,7 @@ portmap file.v
 nim c -d:release portmap.nim
 ```
 
-## Github 
+## GitHub 
 ```
 https://github.com/KARAN-D05
 ```
