@@ -1,4 +1,4 @@
-# Portmap Source Code - Nim
+# Portmap Source Code
 
 import std/os
 import std/strutils
