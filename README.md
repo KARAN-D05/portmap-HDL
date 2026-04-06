@@ -101,7 +101,6 @@ Compare with images in readme for det.v.
 │   ├── 🖥️ download_repos.sh
 │   ├── 📄 LICENSE
 │   ├── 📄 LICENSE_CC
-│   ├── 👑 portmap.nim
 │   └── 📝 README.md
 └── 🌙 filetree.lua
 
